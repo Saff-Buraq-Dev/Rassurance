@@ -1,5 +1,3 @@
-## INF2050 - gr. 20 - Équipe 7
-
 ## STYLE DE CODAGE 
 
 + Le style de codage repose sur le document suivant (tiré de *Apache ACE*) : https://ace.apache.org/docs/coding-standards.html

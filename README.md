@@ -1,6 +1,6 @@
-## INF2050 - gr. 20 - Équipe 7
 
-## RECLAMATIONS ASSURANCES
+
+## RASSURANCE
 
 Ce programme, écrit intégralement en Java, permet de traiter les réclamations d'un client pour un mois donné.
 La réclamation est fournie en format Json et contient:
@@ -25,15 +25,15 @@ Il y a deux façons d'utiliser ce logiciel:
 #
 1. Pour faire la demande de remboursement:
 ```bash 
-java -jar ReclamationsAssurances.jar inputfile.json refunds.json
+java -jar Rassurance.jar inputfile.json refunds.json
 ```
 2. Pour afficher les statistiques:
 ```bash 
-java -jar ReclamationsAssurances.jar -S
+java -jar Rassurance.jar -S
 ```
 3. Pour réinitialiser les statistiques:
 ```bash
-java -jar ReclamationsAssurances.jar -SR
+java -jar Rassurance.jar -SR
 ```
 ### Exemples de fichier d'entrée et de sortie
 
@@ -139,13 +139,11 @@ Le programme calcule les remboursements selon ce tableau:
 |      700       |        -        | Orthophonie, ergothérapie |  0% |      70%     | 90% | 100% max  90$ |     22%      |
 
 Il existe un montant maximum mensuel pour le remboursement de certains soins, tel qu'indiqué dans le tableau ci-dessus.
-Ce montant s'applique pour un même client, pour le même mois, ***même s'il sépare ses réclamations sur plusieurs fichiers***.
-
 
 ### Dépendances
 
 Ce projet est construit avec l'outil de gestion et d'automatisation de production des projets logiciels Java: Maven.
-Toutes les dépendances et les plugins utilisés dans le cadre de ce projet sans dans le fichier [pom.xml](https://gitlab.info.uqam.ca/inf2050-h21/equipe7/equipe7/-/blob/master/pom.xml).
+Toutes les dépendances et les plugins utilisés dans le cadre de ce projet sans dans le fichier [pom.xml](https://github.com/Saff-Buraq-Dev/Rassurance/blob/main/pom.xml).
 
 
 
