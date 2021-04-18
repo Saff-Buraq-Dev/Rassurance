@@ -1,0 +1,16 @@
+{
+   "nombre de reclamations valides traitees": 3,
+   "nombre de demandes rejetees": 0,
+   "nombre de soins declares pour chaque type de soin":    {
+      "massotherapie": 0,
+      "osteopathie": 1,
+      "kinesitherapie": 0,
+      "medecin generaliste prive": 0,
+      "psychologie individuelle": 0,
+      "soins dentaires": 1,
+      "naturopathie / acupuncture": 0,
+      "chiropractie": 0,
+      "physiotherapie": 0,
+      "orthophonie / ergotherapie": 1
+   }
+}
